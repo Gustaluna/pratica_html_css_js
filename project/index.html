@@ -9,9 +9,16 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<header>
-    <h1 class="titulo">W.</h1>
+<header class="cabecalho">
+    <button class="cabecalho__menu cabecalho_fechado" aria-label="menu"><img src="images/icon-menu.svg"></button>
 </header>
+    <nav class="menu-lateral">
+        <a href="#" class="menu-lateral__link menu-lateral__link--home menu-lateral__link--ativo">Home</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--new">New</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--popular">Popular</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--tranding">Tranding</a>
+        <a href="#" class="menu-lateral__link menu-lateral__link--categories">Categories</a>
+    </nav>
 <main class="principal">
     <img src="images/image-web-3-mobile.jpg" alt="imagem-principal" class="imagem_principal">
     <div class="container_principal">
@@ -39,23 +46,29 @@
     </section>
 
     <section class="container_terciario">
-        <div class="box_um">
-            <img src="images/image-retro-pcs.jpg">
-            <h2>01</h2>
-            <h3>Reviving Retro PCs</h3>
-            <p>What happens when old PCs are given moderns upgrades?</p>
+        <div class="box">
+            <img src="images/image-retro-pcs.jpg" alt="Computador retrô" class="foto">
+            <div class="destaques">
+                <h2 class="numero">01</h2>
+                <h3>Reviving Retro PCs</h3>
+                <p>What happens when old PCs are given moderns upgrades?</p>
+            </div>
         </div>
-        <div class="box_dois">
-            <img src="images/image-top-laptops.jpg" alt="">
-            <h2>02</h2>
-            <h3>Top 10 Laptops of 2022</h3>
-            <p>Our best picks for various needs and budgets.</p>
+        <div class="box">
+            <img src="images/image-top-laptops.jpg" alt="Tecla de notebook" class="foto">
+            <div class="destaques">
+                <h2 class="numero">02</h2>
+                <h3>Top 10 Laptops of 2022</h3>
+                <p>Our best picks for various needs and budgets.</p>
+            </div>
         </div>
-        <div class="box_tres">
-            <img src="images/image-gaming-growth.jpg" alt="">
-            <h2>03</h2>
-            <h3>The Growth of Gaming</h3>
-            <p>How the pandemic has sparked fresh opportunities</p>
+        <div class="box">            
+            <img src="images/image-gaming-growth.jpg" alt="Jostick" class="foto">
+                <div class="destaques">
+                    <h2 class="numero">03</h2>
+                    <h3>The Growth of Gaming</h3>
+                    <p>How the pandemic has sparked fresh opportunities</p>
+                </div>
         </div>
     </section>
 </main>

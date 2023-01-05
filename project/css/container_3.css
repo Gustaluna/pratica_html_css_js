@@ -1,0 +1,27 @@
+.container_terciario{
+    margin-top: 6em;
+    margin-bottom: 6em;
+    
+}
+.box{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+
+.foto{
+    width: 30%;
+}
+
+
+.destaques{
+    margin-left: 1.2em;
+    
+}
+
+.numero {
+    color: var(--cor-numero);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 30px;
+}

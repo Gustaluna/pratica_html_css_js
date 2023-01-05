@@ -1,7 +1,7 @@
 @import url(header.css);
 @import url(container_1.css);
 @import url(container_2.css);
-@import url(containe_3.css);
+@import url(container_3.css);
 
 :root{
     --cor-de-fundo: hsl(36, 100%, 99%);
@@ -17,5 +17,5 @@ body {
     font-family:var(--fonte-principal);
     font-size: 15px;
     font-weight: 400;
-    margin: 1em;
+    margin: 1.4em;
 }

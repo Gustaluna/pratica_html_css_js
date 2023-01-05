@@ -1,0 +1,45 @@
+.menu-lateral{
+display: flex;
+flex-direction: column;
+background-color: var(--cor-de-fundo);
+width: 75vw;
+height: 100vh;
+position: absolute;
+right: -100vw;
+transition: .25s;
+}
+
+.menu-lateral--ativo {
+    right: 0;
+    transition: .25s;
+}
+
+.menu-lateral__link {
+    height: 34px;
+    color: var(--cor-principal);
+    padding-left: 2em;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu-lateral__link--home{
+    margin-top: 6em;
+}
+
+.menu-lateral__link::before {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    position: absolute;
+    left: 24px;
+    font-size: 25px;
+}
+
+.cabecalho__menu{
+    text-decoration: none;
+    background-color: var(--cor-de-fundo);
+    border: var(--cor-de-fundo);
+    margin-left: 80%;
+}
+
