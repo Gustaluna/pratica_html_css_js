@@ -1,0 +1,13 @@
+.box_um{
+    display:flex;
+    justify-content: space-between;
+    margin: 3em;
+}
+.box_dois{
+    display:flex;
+    justify-content: space-between;
+}
+.box_tres{
+    display:flex;
+    justify-content: space-between;
+}

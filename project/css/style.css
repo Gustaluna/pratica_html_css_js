@@ -1,0 +1,21 @@
+@import url(header.css);
+@import url(container_1.css);
+@import url(container_2.css);
+@import url(containe_3.css);
+
+:root{
+    --cor-de-fundo: hsl(36, 100%, 99%);
+    --cor-principal: hsl(240, 100%, 5%);
+    --fonte-principal:"Inter";
+    --cor-texto:hsl(236, 13%, 42%);
+    --cor-botao: hsl(5, 85%, 63%);
+    --cor-numero: hsl(233, 8%, 79%);
+    --cor-laranja: hsl(35, 77%, 62%)
+}
+body {
+    background-color: var(--cor-de-fundo);
+    font-family:var(--fonte-principal);
+    font-size: 15px;
+    font-weight: 400;
+    margin: 1em;
+}

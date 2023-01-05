@@ -1,0 +1,32 @@
+.container_secundario {
+    background-color: var(--cor-principal);
+    color: var(--cor-de-fundo);
+    display: block;
+}
+
+.titulo_dois{
+    color: var(--cor-laranja);
+    display: block;
+    padding: 1em;
+    margin: 0em;
+    padding-bottom: 0;
+}
+
+.paragrafo_dois{
+    padding: 1em;
+    line-height:1.8em;
+    color: var(--cor-texto);
+}
+
+hr {
+    width:90%;
+    margin:1px auto;
+}
+
+.subtitulo {
+    color: var(--cor-de-fundo)
+}
+
+.textinho {
+    color: var(--cor-de-fundo)
+}
