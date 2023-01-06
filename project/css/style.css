@@ -17,5 +17,7 @@ body {
     font-family:var(--fonte-principal);
     font-size: 15px;
     font-weight: 400;
-    margin: 1.4em;
+    padding: 1em;
+    width: 100vw;
+    overflow-x: hidden;
 }

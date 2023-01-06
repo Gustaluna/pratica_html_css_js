@@ -7,6 +7,7 @@ height: 100vh;
 position: absolute;
 right: -100vw;
 transition: .25s;
+top:0;
 }
 
 .menu-lateral--ativo {
@@ -40,6 +41,10 @@ transition: .25s;
     text-decoration: none;
     background-color: var(--cor-de-fundo);
     border: var(--cor-de-fundo);
-    margin-left: 80%;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: flex-end;
 }
 
