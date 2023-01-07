@@ -48,3 +48,15 @@ top:0;
     justify-content: flex-end;
 }
 
+.cabecalho__menu_interno{
+    text-decoration: none;
+    background-color: var(--cor-de-fundo);
+    border: var(--cor-de-fundo);
+}
+
+.menu_fechado{
+    
+    margin: 1em;
+    display: flex;
+    justify-content: flex-end;
+} 
