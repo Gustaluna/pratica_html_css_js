@@ -20,4 +20,5 @@ body {
     padding: 1em;
     width: 100vw;
     overflow-x: hidden;
+    margin: 0;
 }

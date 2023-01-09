@@ -7,9 +7,7 @@
 .titulo_dois{
     color: var(--cor-laranja);
     display: block;
-    padding: 1em;
-    margin: 0em;
-    padding-bottom: 0;
+    padding: 15px;
 }
 
 .paragrafo_dois{

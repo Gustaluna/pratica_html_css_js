@@ -43,19 +43,23 @@ top:0;
     border: var(--cor-de-fundo);
 }
 
-.cabecalho{
-    display: flex;
-    justify-content: flex-end;
-}
-
 .cabecalho__menu_interno{
     text-decoration: none;
     background-color: var(--cor-de-fundo);
     border: var(--cor-de-fundo);
 }
 
-.menu_fechado{
-    
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.logotipo{
+    width: 10%;
+}
+
+.menu_fechado{    
     margin: 1em;
     display: flex;
     justify-content: flex-end;
