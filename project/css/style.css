@@ -17,8 +17,22 @@ body {
     font-family:var(--fonte-principal);
     font-size: 15px;
     font-weight: 400;
-    padding: 1em;
-    width: 375;
+    width: 100vw;
     overflow-x: hidden;
+    margin: 0;
+}
 
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 50%);
+    z-index: 1;
+    display: none;
+}
+
+.overlay--ativo{
+    display: block;
 }

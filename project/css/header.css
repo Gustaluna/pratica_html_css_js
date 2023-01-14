@@ -8,6 +8,7 @@ position: absolute;
 right: -100vw;
 transition: .25s;
 top:0;
+z-index: 2;
 }
 
 .menu-lateral--ativo {
@@ -52,7 +53,7 @@ top:0;
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    padding: 1em;
 }
 
 .logotipo{
@@ -63,4 +64,25 @@ top:0;
     margin: 1em;
     display: flex;
     justify-content: flex-end;
-} 
+}
+
+@media screen and (min-width: 1440px){
+    .menu-lateral, .cabecalho__menu{
+        display: none;
+    }
+
+    .menu-lateral__link--home {
+        margin: 0;
+    }
+    .nav-links-desktop-wrapper{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .nav-links-desktop-wrapper {
+        display: none;
+    }
+
+}

@@ -1,3 +1,7 @@
+.principal{
+    padding: 1em;
+}
+
 .imagem_principal{
     width: 100%;
 }
@@ -31,6 +35,5 @@
 }
 
 @media screen and (min-width: 1440px){
-    
     
 }

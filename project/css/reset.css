@@ -37,7 +37,7 @@ table {
 }
 
 html, body {
-	width: 375;
+	width: 100vw;
 	overflow-x: hidden;
 	position: relative;
 }
