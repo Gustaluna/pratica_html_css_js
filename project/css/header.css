@@ -72,12 +72,12 @@ z-index: 2;
         height: 0%;
         display: flex;
         justify-content: center;
-        padding: 1.6em;
+
     }
 
     .cabecalho{
-        padding: 3em;
-        margin-top: 3em;
+        margin: 6em 10em 0em;
+
     }
     .menu-lateral__link{
         color: var(--cor-texto);
@@ -93,7 +93,6 @@ z-index: 2;
     .nav-links-desktop-wrapper{
         display: flex;
         justify-content: space-around;
-        padding: 2em;
         font-size: 17px ;
     }
 

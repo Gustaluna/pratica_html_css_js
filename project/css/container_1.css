@@ -35,5 +35,47 @@
 }
 
 @media screen and (min-width: 1440px){
+    .imagem_principal-desktop {
+        display: flex;
+        justify-content: space-evenly;
+        width: 55%;
+        margin-left: 10em;
+        margin-top: 2em;
+    }
+    .imagem_principal{
+        display: none;
+    }
     
+    .container_principal{
+       display: flex;
+       flex-direction: row;
+       margin: 2em 35em 0em 10em;
+       justify-content: space-between ;
+    }
+
+    .botao{
+        display: flex;
+        justify-content: center; 
+        width: 10%;
+        margin-left: 42em;
+    }
+
+    .paragrafo_um{
+        width: 40%;
+        margin: 0;
+    }
+
+    .titulo_um{
+        width: 50%;
+        margin:0;
+        font-size: 70px;
+    }
+
+
+}
+
+@media screen and (max-width: 1440px){
+    .imagem_principal-desktop{
+        display: none;
+    }
 }
