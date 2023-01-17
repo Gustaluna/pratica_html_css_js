@@ -1,7 +1,8 @@
 .container_secundario {
     background-color: var(--cor-principal);
     color: var(--cor-de-fundo);
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .titulo_dois{
@@ -30,6 +31,14 @@ hr {
 }
 
 @media screen and (min-width: 1440px){
+    .container_secundario {
+        justify-content: flex-end;
+        width: 20%;
+        float: right;
+    }
     
+}
+
+@media screen and (max-width: 1440px){
     
 }
