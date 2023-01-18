@@ -28,10 +28,11 @@
     width: 40%;
     text-decoration: none;
     display: block;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     text-align: center;
     text-transform:uppercase;
     font-weight: bold;
+    font-size: 15px;
 }
 
 @media screen and (min-width: 1440px){
@@ -48,39 +49,58 @@
     
     .container_principal{
        display: flex;
-       flex-direction: column;
-       justify-content: space-between ;
+       justify-content: space-around ;
        column-gap: 20px;
-       overflow: hidden;
-    }
-
-    .titulo {
-        display: flex;
-        flex-direction: row;
     }
 
     .botao{
         display: flex;
         justify-content: center;
-        padding: 2em;
-        width: 10%;
-        flex-direction: column;
+        padding: 1.2em;
+        width: 110%;
+        margin-top: 1em;
+
     }
 
     .paragrafo_um{
         display: flex;
-        justify-content: flex-start;
-        font-size: 18px;
-        margin: 0em;
-        width: 28%;
+        font-size: 15px;
+        margin-top: 2em;
+        width: 255%;
     }
 
     .titulo_um{
         display: flex;
         justify-content: flex-start;
-        margin-left:3em;
+        margin-left: 2.5em;
         font-size: 60px;
-        width: 25%;
+        width: 30%;
+    }
+
+    .texto-botao{
+        display: flex;
+        width: 10%;
+        flex-direction: column;
+    }
+
+    .titulo-texto-botao{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .caixa{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .end{
+        display: flex;
+        width: 50%;
+    }
+
+    .img-titulo-botao{
+        display: flex;
+        flex-direction: column;
     }
 
 }
