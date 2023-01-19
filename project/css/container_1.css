@@ -39,7 +39,7 @@
     .imagem_principal-desktop {
         display: flex;
         justify-content: flex-start;
-        width: 55%;
+        width: 80%;
         margin-left: 10em;
         margin-top: 2em;
     }
@@ -93,14 +93,10 @@
         flex-direction: row;
     }
 
-    .end{
-        display: flex;
-        width: 50%;
-    }
-
     .img-titulo-botao{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
 }

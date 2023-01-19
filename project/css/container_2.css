@@ -32,7 +32,7 @@ hr {
 
 @media screen and (min-width: 1440px){
     .container_secundario {
-        width: 23%;
+        width: 60%;
         justify-content: flex-end;
     }
     
