@@ -15,7 +15,7 @@
 
 .paragrafo_um{
     color:var(--cor-texto);
-    line-height:1.8em;
+    line-height: 1.8em;
     margin-top: 0em;
 }
 
@@ -39,17 +39,18 @@
     .imagem_principal-desktop {
         display: flex;
         justify-content: flex-start;
-        width: 80%;
+        width: 90%;
         margin-left: 10em;
         margin-top: 2em;
     }
+
     .imagem_principal{
         display: none;
     }
     
     .container_principal{
        display: flex;
-       justify-content: space-around ;
+       justify-content: space-around;
        column-gap: 20px;
     }
 
@@ -57,22 +58,27 @@
         display: flex;
         justify-content: center;
         padding: 1.2em;
-        width: 110%;
-        margin-top: 1em;
+        width: 150%;
+        margin: 1em 0em 0em 3.4em;
+    }
 
+    .botaozin :hover{
+        background-color: var(--cor-principal);
     }
 
     .paragrafo_um{
         display: flex;
-        font-size: 15px;
+        font-size: 16px;
         margin-top: 2em;
-        width: 255%;
+        margin-left: 3em;
+        width: 325%;
     }
 
     .titulo_um{
         display: flex;
         justify-content: flex-start;
         margin-left: 2.5em;
+        margin-right: 0.5em;
         font-size: 60px;
         width: 30%;
     }
@@ -86,23 +92,29 @@
     .titulo-texto-botao{
         display: flex;
         flex-direction: row;
+        width: 130%;
     }
 
     .caixa{
         display: flex;
         flex-direction: row;
+        margin-top: 2em;
     }
 
     .img-titulo-botao{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 63%;
     }
 
 }
 
 @media screen and (max-width: 1440px){
     .imagem_principal-desktop{
+        display: none;
+    }
+
+    .botao{
         display: none;
     }
 }

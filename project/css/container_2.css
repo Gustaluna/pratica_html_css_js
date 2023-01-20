@@ -7,7 +7,7 @@
 
 .titulo_dois{
     color: var(--cor-laranja);
-    display: block;
+    display: flex;
     padding: 15px;
 }
 
@@ -23,19 +23,38 @@ hr {
 }
 
 .subtitulo {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
     color: var(--cor-de-fundo)
 }
 
+.subtitulo :hover {
+    color: var(--cor-botao)
+}
+
 .textinho {
-    color: var(--cor-de-fundo)
+    color: var(--cor-de-fundo);
+    font-size: 16px;
 }
 
 @media screen and (min-width: 1440px){
     .container_secundario {
-        width: 60%;
-        justify-content: flex-end;
+        width: 25%;
+        margin: 2em 10em 0em 8em;
+    
     }
     
+    .titulo_dois {
+        font-size: 40px ;
+        margin: 0.5em 0em 0.2em 0em;
+    }
+
+    .paragrafo_dois {
+        margin-top: 0.5em;
+        text-decoration: none;
+    }
+
 }
 
 @media screen and (max-width: 1440px){

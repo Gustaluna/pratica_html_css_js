@@ -1,8 +1,7 @@
 .container_terciario{
-    margin-top: 6em;
-    margin-bottom: 6em;
-    
+    margin: 6em 0em 6em 0em;   
 }
+
 .box{
     display:flex;
     justify-content: space-around;
@@ -14,20 +13,97 @@
     height: 40%;
 }
 
-
 .destaques{
-    margin-left: 1.5em;
-    
+    margin-left: 1.5em;  
 }
 
 .numero {
     color: var(--cor-numero);
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0.5em;
     font-size: 30px;
 }
 
+.subtitulo2 {
+    font-size: 20px;
+    margin-top: 0.5em;
+    font-weight: bold;
+    width: 180%; 
+}
+
+.subtitulo21 {
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+.subtitulo2 :hover{
+    color: var(--cor-botao);
+}
+
+
+
 @media screen and (min-width: 1440px){
+    .container_terciario {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        margin: 6em 10em 10em 10em;
+    }
     
-    
+    .texto{
+        width: 142%;
+        line-height: 1.5em;
+        margin-right: 3em;
+    }
+
+    .texto21 {
+        margin-top:0.5em;
+    }
+
+    .destaques{
+        line-height: 2em;
+        width: 50%;
+        margin-right: 3em;
+        justify-content: space-evenly;
+    }
+
+    .subtitulo2 {
+        font-size: 20px;
+        margin-top: 0.5em;
+        font-weight: bold;
+        width: 180%; 
+    }
+
+    .subtitulo21 {
+        text-decoration: none;
+        color: var(--cor-principal);
+    }
+
+    .subtitulo2 :hover{
+        color: var(--cor-botao);
+    }
+
+    .box1{
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+
+    }
+
+    .foto1{
+        height: 90%;
+        width: 35%;
+    }
+
+    .foto2{
+        margin-left: 6em;
+        height: 90%;
+        width: 35%;
+    }
+
+    .foto3{
+        height: 90%;
+        width: 35%;
+        margin-left: 7.5em;
+    }
 }

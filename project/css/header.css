@@ -72,13 +72,13 @@ z-index: 2;
         height: 0%;
         display: flex;
         justify-content: center;
-
     }
 
     .cabecalho{
         margin: 6em 10em 0em;
 
     }
+
     .menu-lateral__link{
         color: var(--cor-texto);
     }
@@ -90,6 +90,7 @@ z-index: 2;
     .menu-lateral__link--home {
         margin: 0;
     }
+
     .nav-links-desktop-wrapper{
         display: flex;
         justify-content: space-around;
